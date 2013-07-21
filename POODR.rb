@@ -1,5 +1,3 @@
-require 'pry'
-
 class Lamp
   attr_reader :input_watts, :ballast_system
 
@@ -27,5 +25,4 @@ fluorescent = Lamp.new(33, 2_900, 0.95)
 
 p incandescent.efficiency
 p led.efficiency
-p fluorescent.ballast_system
 p fluorescent.efficiency
