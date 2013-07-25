@@ -1,4 +1,4 @@
-#Chapter 2
+#Chapter 3
 
 class Lamp
   attr_reader :input_watts, :ballast_system
